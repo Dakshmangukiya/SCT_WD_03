@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic_Tac_Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mode-selection">
+        <button id="play-human">Play with Human</button>
+        <button id="play-computer">Play with Computer</button>
+    </div>
+    <div class="turn-container" style="display:none;">
+        <h3>Turn For</h3>
+        <div class="turn-box align">X</div>
+        <div class="turn-box align">O</div>
+        <div class="bg"></div>
+    </div>
+    <div class="main-grid" style="display:none;">
+        <div class="box align" id="box0"></div>
+        <div class="box align" id="box1"></div>
+        <div class="box align" id="box2"></div>
+        <div class="box align" id="box3"></div>
+        <div class="box align" id="box4"></div>
+        <div class="box align" id="box5"></div>
+        <div class="box align" id="box6"></div>
+        <div class="box align" id="box7"></div>
+        <div class="box align" id="box8"></div>
+    </div>
+    <h2 id="results"></h2>
+    <button id="play-again" style="display:none;">Play Again</button>
+    <script src="script.js"></script>
+</body>
+</html>
